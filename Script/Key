@@ -15,7 +15,7 @@ local b64decode = function(data)
 end
 
 local _k = b64decode("dHVhbmJlb2Jlbw==")
-local _u = b64decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2V1bm9pYTQyL2J5cGFzcy9yZWZzL2hlYWRzL21haW4vc2NyaXB0Lmx1YQ==")
+local _u = b64decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2V1bm9pYTQyL2J5cGFzcy9yZWZzL2hlYWRzL21haW4vU2NyaXB0L01haW4=")
 
 local f = "key.txt"
 local p = game:GetService("Players").LocalPlayer
